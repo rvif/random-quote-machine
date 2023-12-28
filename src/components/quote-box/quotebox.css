@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+body {
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.quotebox {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  height: auto;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.quote__container {
+  justify-content: flex-start;
+  width: 100%;
+  font-family: var(--font-family);
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 80px;
+}
+.share-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.next-quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.share-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+  width: 40px;
+  height: 40px;
+}
+.hidden-div {
+  height: 100%;
+  width: 80%;
+}
+.next-quote-button {
+  margin: 4px;
+  width: 100px;
+  height: 35px;
+}
+.share-button,
+.next-quote-button {
+  border-radius: 5px;
+  border: 0;
+  color: white;
+  background-color: var(--main-color);
+  transition: background-color 0.5s ease;
+}
+.share-button:hover,
+.next-quote-button:hover {
+  cursor: pointer;
+  background-color: var(--hover-color);
+  transition: background-color 0.5s ease;
+}
+.quote__container {
+  padding: 2rem 2rem 0 2rem;
+}
+.quotation {
+  width: 40px;
+  height: 30px;
+  margin-right: 10px;
+  color: var(--main-color);
+  transition: background-color 0.5s ease;
+}
+.author-name {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  font-weight: 500;
+  color: var(--main-color);
+  transition: background-color 0.5s ease;
+}
+.quote {
+  line-height: 30px;
+  color: var(--main-color);
+  transition: background-color 0.5s ease;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.quote.loaded {
+  opacity: 1;
+}
+.author {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+.author.loaded {
+  opacity: 1;
+}
+.icons {
+  height: 20px;
+}
+.footer {
+  display: flex;
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  text-decoration: none;
+  padding: 5px;
+}

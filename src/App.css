@@ -1,0 +1,18 @@
+:root {
+  --main-color: purple;
+  --hover-color: rgb(149, 26, 149);
+  --font-family: "Raleway", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  background-color: var(--main-color);
+  transition: background-color 0.5s ease;
+}
