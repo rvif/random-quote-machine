@@ -1,6 +1,6 @@
-# Random quote machine built using Reactjs, a required project for certification for the course 'Front End Development Libraries' by FreeCodeCamp
+## Random quote machine built using Reactjs, a required project for certification for the course 'Front End Development Libraries' by FreeCodeCamp
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
