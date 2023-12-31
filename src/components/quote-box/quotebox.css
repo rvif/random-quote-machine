@@ -121,3 +121,9 @@ body {
   text-decoration: none;
   padding: 5px;
 }
+
+@media screen and (max-width: 624px) {
+  .quotebox {
+    width: 70vw;
+  }
+}
